@@ -1,0 +1,41 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a, b, c, d
+		escreva("me diga quatro numero")
+		leia(a)
+		leia(b)
+		leia(c)
+		leia(d)
+
+		se(a > b e a > c e a > d)
+		{
+			escreva(a, "e maior")
+		}senao
+		{
+			se(b > a e b > c e b > d)
+		{
+			escreva(b, "e maior")
+		}senao
+		{
+			se(c > a e c > b e c > d)
+		{
+			escreva(c, "e maior")
+			
+		}senao
+		{
+			se(d > a e d > b e d > c)
+		{
+		
+			escreva(d, "e maior")
+		}senao{
+			se(a == b e a == c e a == d)
+				escreva("todos sao iguais")
+						}
+					}
+				}
+			}
+		}
+	}
