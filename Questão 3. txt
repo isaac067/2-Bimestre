@@ -1,0 +1,22 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		real RSdia = 6.0
+		real RSkm = 0.15
+		inteiro dia
+		inteiro km
+		inteiro preco
+
+		escreva("diga quantos km voce rodou: ")
+		leia(km)
+
+		escreva("diga quantos km esse carro rodou: ")
+		leia(dia)
+
+		preco = km * RSkm + dia * RSdia
+
+		escreva("o preco final e de R$", preco)
+	}
+}
