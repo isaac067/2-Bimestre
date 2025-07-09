@@ -1,0 +1,17 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro temp
+		
+		escreva("qual a temp esta marcando")
+		leia(temp)
+		se(temp / -1 >=
+ 0){
+		escreva("temp e positiva ")}senao
+		{
+		escreva("temp e negativa ")
+		}
+	}
+}
