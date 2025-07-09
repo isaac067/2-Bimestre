@@ -1,0 +1,25 @@
+programa
+{
+	
+	funcao inicio()
+	{
+		inteiro a, b
+		escreva("me diga dois numero")
+		leia(a)
+		leia(b)
+
+		se(a > b)
+		{
+			escreva(a, "e maior que", b)
+		}senao
+		{
+			se(a < b)
+			{
+				escreva(b, "e maior que", a)
+			}senao
+			{escreva("iguais")
+			}
+		}
+		
+	}
+}
