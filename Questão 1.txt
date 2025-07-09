@@ -1,0 +1,8 @@
+1. Informe o valor lógico (verdadeiro ou falso) para as proposições lógicas abaixo:
+a) v
+b) f
+c) v
+d) v
+e) v
+f) f
+g) v
